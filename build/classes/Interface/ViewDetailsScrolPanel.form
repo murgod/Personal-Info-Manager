@@ -1,0 +1,846 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <Component id="jScrollPane1" pref="760" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <Component id="jScrollPane1" pref="2056" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <Properties>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Default Cursor"/>
+        </Property>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel1">
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jPanel3" alignment="0" pref="1306" max="32767" attributes="0"/>
+                  <Component id="jPanel4" alignment="0" max="32767" attributes="0"/>
+                  <Component id="jPanel7" alignment="0" max="32767" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="423" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanel6" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanel3" min="-2" pref="264" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                      <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanel7" min="-2" pref="635" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanel6" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="901" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="jPanel2">
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="94" max="-2" attributes="0"/>
+                                  <Component id="jLabel3" min="-2" pref="241" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="firstnamelabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lastnamelabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="phnolabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="doblabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="agelabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="heightlable" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="weightlabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="ssnlabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="weighttextfield" alignment="0" pref="219" max="32767" attributes="0"/>
+                                      <Component id="heighttextfield" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="agetextfield" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="dobtextfield" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="phonenotextfield" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="secondNameTextField" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="firstNameTextField" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="ssntextfield" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace pref="548" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                          <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="firstnamelabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="firstNameTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lastnamelabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="secondNameTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="phnolabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="phonenotextfield" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="doblabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="dobtextfield" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="agelabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="agetextfield" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="heightlable" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="heighttextfield" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="weightlabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="weighttextfield" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="ssnlabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="ssntextfield" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="51" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabel3">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="18" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="View Demographic Info"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="firstnamelabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="firstname"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lastnamelabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="lastname"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="phnolabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="phoneno"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="doblabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="DOB"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="agelabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="age"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="heightlable">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="height"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="weightlabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="weight"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="ssnlabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="ssn"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="firstNameTextField">
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="firstNameTextFieldActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JTextField" name="secondNameTextField">
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="secondNameTextFieldActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JTextField" name="phonenotextfield">
+                </Component>
+                <Component class="javax.swing.JTextField" name="dobtextfield">
+                </Component>
+                <Component class="javax.swing.JTextField" name="agetextfield">
+                </Component>
+                <Component class="javax.swing.JTextField" name="heighttextfield">
+                </Component>
+                <Component class="javax.swing.JTextField" name="weighttextfield">
+                </Component>
+                <Component class="javax.swing.JTextField" name="ssntextfield">
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanel3">
+              <Properties>
+                <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[700, 600]"/>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="94" max="-2" attributes="0"/>
+                                  <Component id="jLabel2" min="-2" pref="241" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="firstnamelabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lastnamelabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="phnolabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="doblabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="115" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="ZipCodeView" alignment="0" pref="155" max="32767" attributes="0"/>
+                                      <Component id="StateView" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="CityView" alignment="1" max="32767" attributes="0"/>
+                                      <Component id="StreetAddrsView" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace pref="961" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                          <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="firstnamelabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="StreetAddrsView" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lastnamelabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="CityView" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="phnolabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="StateView" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="doblabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="ZipCodeView" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="39" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabel2">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="18" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="View Address Info"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="firstnamelabel1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Street addr"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lastnamelabel1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="City"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="phnolabel1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="State"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="doblabel1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Zip code"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="StreetAddrsView">
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="StreetAddrsViewActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JTextField" name="CityView">
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CityViewActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JTextField" name="StateView">
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="StateViewActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JTextField" name="ZipCodeView">
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanel4">
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="94" max="-2" attributes="0"/>
+                                  <Component id="jLabel4" min="-2" pref="241" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="firstnamelabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lastnamelabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="phnolabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="doblabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="agelabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="115" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="AccTypeTextFieldView" alignment="0" pref="155" max="32767" attributes="0"/>
+                                      <Component id="AccBalanceTextFieldView" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="BankAccNoTextFieldView" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="BankRoutingNoTextFieldView" alignment="1" max="32767" attributes="0"/>
+                                      <Component id="BankNameTextFieldView" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                          <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="firstnamelabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="BankNameTextFieldView" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lastnamelabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="BankRoutingNoTextFieldView" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="phnolabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="BankAccNoTextFieldView" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="doblabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="AccBalanceTextFieldView" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="agelabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="AccTypeTextFieldView" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabel4">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="18" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="View Savingaccount Info"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="firstnamelabel2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Bank name"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="BankNameTextFieldView">
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BankNameTextFieldViewActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JTextField" name="BankRoutingNoTextFieldView">
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BankRoutingNoTextFieldViewActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lastnamelabel2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Bank routing no"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="phnolabel2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Bank account no"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="BankAccNoTextFieldView">
+                </Component>
+                <Component class="javax.swing.JTextField" name="AccBalanceTextFieldView">
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AccBalanceTextFieldViewActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="doblabel2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Account balance"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="agelabel1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Account type"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="AccTypeTextFieldView">
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanel7">
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="94" max="-2" attributes="0"/>
+                                  <Component id="jLabel8" min="-2" pref="241" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="firstnamelabel6" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lastnamelabel6" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="phnolabel6" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="doblabel6" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="agelabel5" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="115" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="ChkAccType3" alignment="0" pref="155" max="32767" attributes="0"/>
+                                      <Component id="ChkAccBal3" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="ChkBankAccNo3" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="ChkBankRouNo3" alignment="1" max="32767" attributes="0"/>
+                                      <Component id="ChkBankNameView3" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Component id="jPanel5" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                          <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="firstnamelabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="ChkBankNameView3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lastnamelabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="ChkBankRouNo3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="phnolabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="ChkBankAccNo3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="doblabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="ChkAccBal3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="agelabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="ChkAccType3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="jPanel5" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="294" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabel8">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="18" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="View Checkingacc Info"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="firstnamelabel6">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Bank name"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lastnamelabel6">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Bank Routing no"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="phnolabel6">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Bank Acc no"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="doblabel6">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Account Balance"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="agelabel5">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Account type"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="ChkBankNameView3">
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ChkBankNameView3ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JTextField" name="ChkBankRouNo3">
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ChkBankRouNo3ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JTextField" name="ChkBankAccNo3">
+                </Component>
+                <Component class="javax.swing.JTextField" name="ChkAccBal3">
+                </Component>
+                <Component class="javax.swing.JTextField" name="ChkAccType3">
+                </Component>
+                <Container class="javax.swing.JPanel" name="jPanel5">
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="94" max="-2" attributes="0"/>
+                                      <Component id="jLabel5" min="-2" pref="241" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="firstnamelabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lastnamelabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="phnolabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="doblabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="agelabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="115" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="BloodTypeView" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="DateOfExpiryView" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="DateOfIssueView" alignment="1" max="32767" attributes="0"/>
+                                          <Component id="LicenceNoView" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="jLabelPicDisplay" alignment="0" min="-2" pref="228" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace pref="306" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                              <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="firstnamelabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="LicenceNoView" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lastnamelabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="DateOfIssueView" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="phnolabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="DateOfExpiryView" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="doblabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="BloodTypeView" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="agelabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabelPicDisplay" alignment="3" min="-2" pref="173" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="jLabel5">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Tahoma" size="18" style="1"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="View Driverlicence Info"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="firstnamelabel3">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="License number"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lastnamelabel3">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Date of issue"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="phnolabel3">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Date of Expiry"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="doblabel3">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Blood Type"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="agelabel2">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Picture"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="LicenceNoView">
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="LicenceNoViewActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="DateOfIssueView">
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="DateOfIssueViewActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="DateOfExpiryView">
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="BloodTypeView">
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabelPicDisplay">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                        </Property>
+                        <Property name="opaque" type="boolean" value="true"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanel6">
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="94" max="-2" attributes="0"/>
+                                  <Component id="jLabel6" min="-2" pref="241" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="firstnamelabel4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lastnamelabel4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="phnolabel4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="doblabel4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="115" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="Alergy3" alignment="0" pref="155" max="32767" attributes="0"/>
+                                      <Component id="Alergy2" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="Alergy1" alignment="1" max="32767" attributes="0"/>
+                                      <Component id="MedRecNoview" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace pref="384" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                          <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="firstnamelabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="MedRecNoview" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lastnamelabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="Alergy1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="phnolabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="Alergy2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="doblabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="Alergy3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="159" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabel6">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="18" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="View Medical Info"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="firstnamelabel4">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Record number"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="MedRecNoview">
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="MedRecNoviewActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lastnamelabel4">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Alergy 1"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="Alergy1">
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Alergy1ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="phnolabel4">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Alergy 2"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="Alergy2">
+                </Component>
+                <Component class="javax.swing.JLabel" name="doblabel4">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Alergy 3"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="Alergy3">
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
